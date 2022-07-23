@@ -14,9 +14,4 @@
 </a>
 </p></body>
 </head>
-	<p>
-<a href="https://github.com/AVS1508">
-<div class="resimKapsulu"><img src="[gudi.jpg](https://media.discordapp.net/attachments/887764078636986378/1000519540142247936/unknown.png)" width="75" height="75" />
-</a>
-</p>
 </html>
