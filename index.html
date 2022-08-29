@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MEEM | CodAre.Fun</title>
+        <title>MEEM | BYSedX</title>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
     <body>
@@ -16,7 +16,7 @@
 
 return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
-            fetch('https://www.reddit.com/r/burdurland.json').catch(()=>{alert("Api Taraflı Hata / İnternet Yok ")}).then(response => response.json()).then(data =>{
+            fetch('https://www.reddit.com/r/KGBTR.json').catch(()=>{alert("Api Taraflı Hata / İnternet Yok ")}).then(response => response.json()).then(data =>{
       const body = $("#root");
       body.append("<h1>"+escapeHtml(data.data.children[Math.floor(Math.random() * data.data.children.length)].data.title)+"</h1>"+"<br><img style='height:500px;' src='"+data.data.children[Math.floor(Math.random() * data.data.children.length)].data.url+"'>");
 
